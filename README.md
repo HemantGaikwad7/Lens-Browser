@@ -134,23 +134,21 @@ python src/main.py
 ## 🏗️ Architecture
 
 ```
-LensBrowser/
-├── src/
-│   ├── main.py              # Application entry point
-│   ├── browser/
-│   │   ├── window.py        # Main browser window
-│   │   ├── web_view.py      # Custom web view
-│   │   └── toolbar.py       # Navigation toolbar
-│   ├── ai/
-│   │   ├── llm_client.py    # Unified LLM API client
-│   │   ├── summarizer.py    # Content summarization
-│   │   └── rewriter.py      # Content rewriting
-│   ├── ui/
-│   │   ├── insight_panel.py # AI insights side panel
-│   │   └── styles.py        # UI styling
-│   └── utils/
-│       ├── text_extractor.py # HTML text extraction
-│       └── config.py         # Configuration management
+lens_browser/
+│
+├── main.py                # App entry point
+├── browser_ui.py          # All GUI classes and styling logic
+├── llm_client.py          # Gemini/OpenAI API integration
+├── extract.py             # Text extraction logic
+├── config.py              # API keys, constants, settings
+├── assets/
+│    ├── icons/            # Custom SVG/PNG icons (for toolbar, tabs, etc.)
+│    ├── logo.svg/png      # App logo for title bar/about screen
+│    └── style.qss         # CSS/Qt stylesheet file
+├── tests/
+│    └── test_extraction.py  # For future unit tests
+├── requirements.txt
+└── README.md
 ```
 
 ## 🧪 Testing
