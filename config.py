@@ -1,0 +1,2 @@
+# Store your Gemini API key here
+GEMINI_API_KEY = "YOURAPIKEY"
