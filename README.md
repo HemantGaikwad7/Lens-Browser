@@ -279,10 +279,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Hemant - gaikwadh4@gmail.com
 
-Project Link: [https://github.com/yourusername/LensBrowser](https://github.com/yourusername/LensBrowser)
+Project Link: https://github.com/HemantGaikwad7/Lens-Browser
 
 ---
 
-**Note**: Remember to add your API keys to the `.env` file before running the application!
+**Note**: Remember to add your API keys to the `config` file before running the application!
